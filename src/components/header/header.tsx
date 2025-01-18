@@ -19,7 +19,7 @@ export default function Header() {
           <div className="w-full h-full cursor-pointer max-sm:h-[200px]">
             <Image
               className="h-full w-full"
-              src={"/2.jfif"}
+              src={"/12.webp"}
               alt={"pic"}
               priority
               height={3000}
@@ -31,7 +31,7 @@ export default function Header() {
           <div className="w-full h-full cursor-pointer max-sm:h-[200px]">
             <Image
               className="h-full w-full"
-              src={"/4.jfif"}
+              src={"/10.webp"}
               alt={"pic"}
               priority
               height={3000}
@@ -43,7 +43,7 @@ export default function Header() {
           <div className="w-full h-full cursor-pointer max-sm:h-[200px]">
             <Image
               className="h-full w-full"
-              src={"/3.jfif"}
+              src={"/11.webp"}
               alt={"pic"}
               priority
               height={3000}

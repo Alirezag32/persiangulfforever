@@ -32,7 +32,7 @@ export default function BlogPersianGulf() {
 
         <div className="relative mb-12">
           <Image
-            src="/4.jfif"
+            src="/13.webp"
             alt="Persian Gulf"
             className="w-full h-auto rounded-lg shadow-lg"
             width={2000}
@@ -132,7 +132,6 @@ export default function BlogPersianGulf() {
 
         <h2 className="text-3xl font-semibold mb-6">نظرات کاربران</h2>
         <div className="mb-8">
- 
           {comments.length === 0 ? (
             <p className="text-gray-700">هنوز هیچ نظری ارسال نشده است.</p>
           ) : (
@@ -149,7 +148,6 @@ export default function BlogPersianGulf() {
           )}
         </div>
 
- 
         <h2 className="text-2xl font-semibold mb-4">نظر خود را بنویسید</h2>
         <form onSubmit={handleAddComment} className="flex flex-col">
           <textarea

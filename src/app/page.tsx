@@ -33,7 +33,7 @@ export default function YourComponent() {
             transition={{ duration: 2.5, type: "spring", stiffness: 30 }}
           >
             <Image
-              src="/4.jfif"
+              src="/13.webp"
               alt="Persian Gulf"
               className="w-full max-w-lg h-auto"
               width={1000}
