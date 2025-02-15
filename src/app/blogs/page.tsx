@@ -16,9 +16,22 @@ export default function Blogs() {
             <p className="mt-4 text-gray-600">
               {" "}
               خلیج فارس، یکی از مهم‌ترین مناطق دریایی جهان است که در جنوب غربی
-              آسیا و بین ایران و شبه جزیره عربستان قرار دارد.
-            ...</p>
+              آسیا و بین ایران و شبه جزیره عربستان قرار دارد. ...
+            </p>
             <Link href="/blogs/1">
+              <span className="mt-4 inline-block text-blue-600 hover:underline">
+                خواندن بیشتر
+              </span>
+            </Link>
+          </div>
+          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-semibold">پیدایش و تاریخ خلیج فارس</h2>
+            <p className="mt-4 text-gray-600">
+              {" "}
+              زمین‌شناسان معتقدند که در حدود پانصد هزار سال پیش، صورت نخستین
+              خلیج ...
+            </p>
+            <Link href="/blogs/2">
               <span className="mt-4 inline-block text-blue-600 hover:underline">
                 خواندن بیشتر
               </span>
